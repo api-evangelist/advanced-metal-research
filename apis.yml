@@ -1,9 +1,25 @@
 aid: advanced-metal-research
 name: Advanced Metal Research
-description: Advanced Metal Research is a company surfaced as a portfolio company of y-combinator and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Advanced Metal Research is a Y Combinator (Spring 2026) company based in Los Angeles building
+  machine intelligence for American welding. The company develops American-made robotic welding cells that
+  pair computer vision with real-time seam tracking and post-weld inspection, turning welding from a scarce
+  manual craft into a closed-loop manufacturing system that learns from every weld as it happens. Founded in
+  2025 by Julian Fried, Stephen Lin, and Angus Muffatti, it targets the projected shortage of skilled welding
+  professionals across US industrial manufacturing. The company is early-stage and hardware-focused; it does
+  not currently publish a public developer API, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/advanced-metal-research/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://advancedmetalresearch.com/amr-logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -15,9 +31,27 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Robotics
+- Welding
+- Manufacturing
+- Computer Vision
+- Industrial Automation
+- Hardware
+- Machine Intelligence
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/advanced-metal-research-domain-security.yml
+- type: Website
+  url: https://advancedmetalresearch.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
