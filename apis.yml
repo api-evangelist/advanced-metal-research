@@ -8,6 +8,17 @@ description: Advanced Metal Research is a Y Combinator (Spring 2026) company bas
   professionals across US industrial manufacturing. The company is early-stage and hardware-focused; it does
   not currently publish a public developer API, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/advanced-metal-research/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
