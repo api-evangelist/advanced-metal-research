@@ -45,7 +45,7 @@ tags:
 - Robotics
 - Welding
 - Manufacturing
-- Computer-Vision
+- Computer Vision
 - Industrial Automation
 - Hardware
 - Machine Intelligence
@@ -60,6 +60,7 @@ tags_raw:
 - Hardware
 - Machine Intelligence
 - Y Combinator
+- Computer-Vision
 apis: []
 common:
 - type: DomainSecurity
